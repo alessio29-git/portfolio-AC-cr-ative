@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="AC-Portfolio - Alessio Cino UI/UX Designer. Découvrez mes services de design et développement web." />
+    <meta property="og:title" content="AC-Portfolio - Alessio Cino UI/UX Designer" />
+    <meta property="og:description" content="Designer UI/UX passionné, je crée des expériences digitales uniques qui allient esthétique et fonctionnalité. Transformons ensemble vos idées en réalité." />
+    <meta property="og:image" content="/placeholder.svg?height=630&width=1200" />
+    <meta property="og:url" content="https://votre-site.com" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AC-Portfolio - Alessio Cino UI/UX Designer" />
+    <meta name="twitter:description" content="Designer UI/UX passionné, je crée des expériences digitales uniques qui allient esthétique et fonctionnalité. Transformons ensemble vos idées en réalité." />
+    <meta name="twitter:image" content="/placeholder.svg?height=630&width=1200" />
+    <title>AC-Portfolio - Alessio Cino UI/UX Designer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Remplacez VOTRE-DOMAINE-GITHUB-PAGES par votre URL GitHub Pages -->
+    <link rel="canonical" href="https://VOTRE-DOMAINE-GITHUB-PAGES/index.html"></head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header__container">
+            <a href="#accueil" class="header__logo" aria-label="Retour à l'accueil">
+                <img src="logo site vitrine1.svg" alt="AC-Portfolio Logo" class="header__logo-image" loading="lazy" />
+            </a>
+            <nav class="header__nav-container" aria-label="Navigation principale">
+                <button class="header__mobile-toggle" id="mobileToggle" aria-label="Ouvrir le menu" aria-expanded="false">
+                    <span class="burger-icon"></span> <!-- Add burger icon here -->
+                </button>
+                <ul class="header__nav" id="headerNav">
+                    <li><a href="#accueil" class="header__nav-link">Accueil</a></li>
+                    <li><a href="#services" class="header__nav-link">Services</a></li>
+                    <li><a href="#portfolio" class="header__nav-link">Portfolio</a></li>
+                    <li><a href="#testimonials" class="header__nav-link">Témoignages</a></li>
+                    <li><a href="#apropos" class="header__nav-link">À propos</a></li>
+                    <li><a href="#contact" class="header__nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="accueil">
+        <div class="container">
+            <div class="hero__content fade-in-up">
+                <h1 class="hero__title">Mon Univers</h1>
+                <p class="hero__subtitle">
+                    Entre esthétique et fonctionnalité, découvrez ma vision du design.
+                </p>
+                <div class="hero__cta">
+                    <a href="#contact" class="btn btn--primary">Commencer maintenant</a>
+                    <a href="#services" class="btn btn--secondary">Découvrir mes services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="features" id="services">
+        <div class="container">
+            <header class="features__header">
+                <h2 class="features__title">Mes Services</h2>
+                <p class="features__subtitle">
+                    Des solutions complètes pour répondre à tous vos besoins digitaux
+                </p>
+            </header>
+            <div class="features__grid">
+                <a href="ux-research.html" class="feature-card">
+                    <div class="feature-card__icon" aria-hidden="true">🔍</div>
+                    <h3 class="feature-card__title">Recherche UX et Analyse</h3>
+                    <p class="feature-card__description">
+                        J'analyse les besoins des utilisateurs et les objectifs du projet pour poser des bases solides à l'expérience utilisateur.
+                    </p>
+                    <span class="feature-card__link-indicator">En savoir plus →</span>
+                </a>
+                <a href="wireframes-mockups.html" class="feature-card">
+                    <div class="feature-card__icon" aria-hidden="true">📐</div>
+                    <h3 class="feature-card__title">Wireframes et Maquettes</h3>
+                    <p class="feature-card__description">
+                        Je conçois des wireframes et des maquettes claires et intuitives, pour structurer efficacement l'interface.
+                    </p>
+                    <span class="feature-card__link-indicator">En savoir plus →</span>
+                </a>
+                <a href="ui-design.html" class="feature-card">
+                    <div class="feature-card__icon" aria-hidden="true">✨</div>
+                    <h3 class="feature-card__title">Design d'Interface (UI)</h3>
+                    <p class="feature-card__description">
+                        Je crée des interfaces modernes, cohérentes et esthétiques, en soignant les détails visuels et l'identité graphique.
+                    </p>
+                    <span class="feature-card__link-indicator">En savoir plus →</span>
+                </a>
+                <a href="html-css-integration.html" class="feature-card">
+                    <div class="feature-card__icon" aria-hidden="true">💻</div>
+                    <h3 class="feature-card__title">Intégration HTML & CSS</h3>
+                    <p class="feature-card__description">
+                        En plus du design, je développe moi-même le site en HTML et CSS, fidèle aux maquettes, responsive et bien structuré.
+                    </p>
+                    <span class="feature-card__link-indicator">En savoir plus →</span>
+                </a>
+                <a href="optimized-ux.html" class="feature-card">
+                    <div class="feature-card__icon" aria-hidden="true">📈</div>
+                    <h3 class="feature-card__title">Expérience Utilisateur Optimisée</h3>
+                    <p class="feature-card__description">
+                        Je pense chaque écran pour offrir une navigation fluide, accessible et agréable sur tous les appareils.
+                    </p>
+                    <span class="feature-card__link-indicator">En savoir plus →</span>
+                </a>
+                <a href="full-project-tracking.html" class="feature-card">
+                    <div class="feature-card__icon" aria-hidden="true">✅</div>
+                    <h3 class="feature-card__title">Suivi complet du projet</h3>
+                    <p class="feature-card__description">
+                        Du concept jusqu'à la version en ligne, je m'occupe de chaque étape, en gardant toujours l'utilisateur au centre.
+                    </p>
+                    <span class="feature-card__link-indicator">En savoir plus →</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Showcase Section -->
+    <section class="project-showcase" id="portfolio">
+        <div class="container">
+            <header class="project-showcase__header">
+                <h2 class="project-showcase__title">Mes Derniers Projets</h2>
+                <p class="project-showcase__subtitle">
+                    Découvrez comment j'ai transformé des idées en expériences digitales réussies.
+                </p>
+            </header>
+            <div class="project-showcase__grid">
+                <!-- Projet 1 : Refonte de Site E-commerce -->
+                <a href="https://www.figma.com/design/rgxVzRhu7htIBjY3aIivbr/Untitled?t=DpabJ0sv5sPfFRpz-0" 
+                   class="project-card" target="_blank" rel="noopener noreferrer">
+                    <img src="figma.png" alt="Refonte de Site E-commerce" class="project-card__image" loading="lazy" />
+                    <div class="project-card__content">
+                        <h3 class="project-card__title">Refonte de Site E-commerce</h3>
+                        <p class="project-card__description">Optimisation de l'expérience utilisateur et refonte visuelle pour augmenter les conversions.</p>
+                        <span class="project-card__link">Voir projet →</span>
+                    </div>
+                </a>
+
+                <!-- Projet 2 : Application Mobile de Gestion -->
+                <a href="https://www.figma.com/design/VkQ8ubkfBImvfPcfAHMeYy/Untitled?t=DpabJ0sv5sPfFRpz-0" 
+                   class="project-card" target="_blank" rel="noopener noreferrer">
+                    <img src="figma.png" alt="Application Mobile de Gestion" class="project-card__image" loading="lazy" />
+                    <div class="project-card__content">
+                        <h3 class="project-card__title">Application Mobile de Gestion</h3>
+                        <p class="project-card__description">Conception d'une interface intuitive pour une application de gestion de tâches complexe.</p>
+                        <span class="project-card__link">Voir projet →</span>
+                    </div>
+                </a>
+
+                <!-- Projet 3 -->
+                <a href="#" class="project-card">
+                    <img src="boutique.png" alt="Boutique" class="project-card__image" loading="lazy" />
+                    <div class="project-card__content">
+                        <h3 class="project-card__title">Site e-commerce en HTML et CSS</h3>
+                        <p class="project-card__description">Création d'un site e-commerce.</p>
+                        <span class="project-card__link">Voir projet →</span>
+                    </div>
+                </a>
+
+                <!-- Projet 4 -->
+                <a href="https://www.figma.com/design/PV1UbrWQjEb4xOsz0ZEJNn/Untitled?node-id=0-1&p=f&t=Pgb0p5STBRSEtTdk-0" class="project-card">
+                    <img src="figma.png" alt="Site Vitrine pour une salle de sport" class="project-card__image" loading="lazy" />
+                    <div class="project-card__content">
+                        <h3 class="project-card__title">Site Vitrine pour Startup</h3>
+                        <p class="project-card__description">Design moderne et responsive pour une nouvelle startup technologique.</p>
+                        <span class="project-card__link">Voir projet →</span>
+                    </div>
+                </a>
+            </div>
+            <div class="text-center mt-12">
+                <a href="#" class="btn btn--secondary">Voir tout le portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <header class="testimonials__header">
+                <h2 class="testimonials__title">Ce que mes clients disent</h2>
+                <p class="testimonials__subtitle">
+                    Leurs retours sont ma plus grande fierté et ma motivation.
+                </p>
+            </header>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="cta" id="apropos">
+        <div class="container text-center">
+            <h2 class="cta__title">Prêt à transformer votre site ?</h2>
+            <p class="cta__subtitle">
+                Contactez-moi dès aujourd'hui pour discuter de votre projet
+            </p>
+            <a href="#contact" class="btn btn--primary">Démarrer votre projet</a>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section" id="newsletter">
+        <div class="container text-center">
+            <h2 class="newsletter-section__title">Restez informé</h2>
+            <p class="newsletter-section__text">
+                Recevez mes derniers projets, conseils design et actualités UI/UX directement dans votre boîte mail.
+            </p>
+            <form class="newsletter-section__form">
+                <input type="email" class="newsletter-section__input" placeholder="Votre email" required />
+                <button type="submit" class="newsletter-section__btn">S'abonner</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- SECTION CONTACT -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact__content">
+                <!-- Formulaire révolutionnaire --> 
+                <div class="contact__form-container">
+                    <div class="contact__form-card">
+                        <!-- Barre de progression -->
+                        <div class="contact__progress">
+                            <div class="contact__progress-bar">
+                                <div class="contact__progress-fill"></div>
+                            </div>
+                            <span class="contact__progress-text">Étape 1 sur 3</span>
+                        </div>
+
+                        <div class="contact__form-header">
+                            <h3 class="contact__form-title">
+                                <span class="contact__form-icon">🚀</span>
+                                Démarrons votre projet
+                            </h3>
+                            <p class="contact__form-description">
+                                Partagez votre vision et recevez une proposition personnalisée sous 24h. 
+                                <strong>Consultation gratuite incluse.</strong>
+                            </p>
+                        </div>
+
+                        <div class="contact__form-content">
+                            <!-- Message de succès -->
+                            <div class="contact__success" id="successMessage" style="display: none">
+                                <div class="contact__success-animation">
+                                    <div class="contact__success-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <polyline points="20,6 9,17 4,12"></polyline>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <h4 class="contact__success-title">Message envoyé avec succès !</h4>
+                                <p class="contact__success-text">
+                                    Merci pour votre confiance. Je reviendrai vers vous très rapidement pour discuter de votre projet.
+                                </p>
+                                <div class="contact__success-timeline">
+                                    <div class="contact__timeline-item">
+                                        <span class="contact__timeline-time">Dans 2h</span>
+                                        <span class="contact__timeline-text">Accusé de réception</span>
+                                    </div>
+                                    <div class="contact__timeline-item">
+                                        <span class="contact__timeline-time">Sous 24h</span>
+                                        <span class="contact__timeline-text">Première analyse</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Formulaire multi-étapes -->
+                            <form class="contact__form" id="contactForm">
+                                <!-- Étape 1: Informations de contact -->
+                                <div class="contact__form-step contact__form-step--active" data-step="1">
+                                    <h4 class="contact__step-title">Informations de contact</h4>
+                                    <div class="contact__form-row">
+                                        <div class="contact__form-group">
+                                            <label for="name" class="contact__form-label">
+                                                <span class="contact__label-icon">👤</span>
+                                                Nom complet
+                                            </label>
+                                            <input type="text" id="name" name="user_name" class="contact__form-input" placeholder="Votre nom et prénom" required />
+                                            <div class="contact__input-border"></div>
+                                        </div>
+                                        <div class="contact__form-group">
+                                            <label for="email" class="contact__form-label">
+                                                <span class="contact__label-icon">📧</span>
+                                                Adresse email
+                                            </label>
+                                                                                        <input type="email" id="email" name="user_email" class="contact__form-input" placeholder="votre@email.com" required />
+                                            <div class="contact__input-border"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Étape 2: Détails du projet -->
+                                <div class="contact__form-step" data-step="2">
+                                    <h4 class="contact__step-title">Détails du projet</h4>
+                                    <div class="contact__form-group">
+                                        <label for="subject" class="contact__form-label">
+                                            <span class="contact__label-icon">🎯</span>
+                                            Type de projet
+                                        </label>
+                                        <select id="subject" name="project_type" class="contact__form-select" required>
+                                            <option value="">Sélectionnez un type de projet</option>
+                                            <option value="site-vitrine">Site vitrine</option>
+                                            <option value="e-commerce">Site e-commerce</option>
+                                            <option value="application-web">Application web</option>
+                                            <option value="application-mobile">Application mobile</option>
+                                            <option value="refonte">Refonte existante</option>
+                                            <option value="autre">Autre projet</option>
+                                        </select>
+                                        <div class="contact__input-border"></div>
+                                    </div>
+
+                                    <div class="contact__form-group">
+                                        <label for="budget" class="contact__form-label">
+                                            <span class="contact__label-icon">💰</span>
+                                            Budget estimé
+                                        </label>
+                                        <select id="budget" name="project_budget" class="contact__form-select">
+                                            <option value="">Budget approximatif (optionnel)</option>
+                                            <option value="moins-5k">Moins de 5 000€</option>
+                                            <option value="5k-10k">5 000€ - 10 000€</option>
+                                            <option value="10k-25k">10 000€ - 25 000€</option>
+                                            <option value="25k-plus">Plus de 25 000€</option>
+                                            <option value="a-discuter">À discuter</option>
+                                        </select>
+                                        <div class="contact__input-border"></div>
+                                    </div>
+                                </div>
+
+                                <!-- Étape 3: Votre vision -->
+                                <div class="contact__form-step" data-step="3">
+                                    <h4 class="contact__step-title">Votre vision</h4>
+                                    <div class="contact__form-group">
+                                        <label for="message" class="contact__form-label">
+                                            <span class="contact__label-icon">💭</span>
+                                            Décrivez votre projet
+                                        </label>
+                                        <textarea id="message" name="message" class="contact__form-textarea" placeholder="Parlez-moi de votre vision, vos objectifs, votre audience cible... Plus vous serez précis, mieux je pourrai vous accompagner." required></textarea>
+                                        <div class="contact__input-border"></div>
+                                        <div class="contact__textarea-counter">
+                                            <span id="charCount">0</span>/500 caractères
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Navigation du formulaire -->
+                                <div class="contact__form-navigation">
+                                    <button type="button" class="contact__form-prev" id="prevBtn" style="display: none;">
+                                        ← Précédent
+                                    </button>
+                                    <button type="button" class="contact__form-next" id="nextBtn">
+                                        Suivant →
+                                    </button>
+                                    <button type="submit" class="contact__form-submit" id="submitBtn" style="display: none;">
+                                        <span class="contact__submit-icon">🚀</span>
+                                        <span id="submitText">Envoyer ma demande</span>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Informations de contact redesignées -->
+                <div class="contact__info">
+                    <!-- Carte principale -->
+                    <div class="contact__info-main">
+                        <div class="contact__info-avatar">
+                            <img src="/placeholder.svg?height=80&width=80" alt="Alessio Cino" / loading="lazy">
+                            <div class="contact__info-status">
+                                <span class="contact__status-dot"></span>
+                                Disponible
+                            </div>
+                        </div>
+                        <h3 class="contact__info-name">Alessio Cino</h3>
+                        <p class="contact__info-title">UI/UX Designer & Développeur</p>
+                        <div class="contact__info-rating">
+                            <div class="contact__stars">⭐⭐⭐⭐⭐</div>
+                            <span class="contact__rating-text">4.9/5 • 50+ projets réalisés</span>
+                        </div>
+                    </div>
+
+                    <!-- Informations de contact -->
+                    <div class="contact__info-cards">
+                        <div class="contact__info-card contact__info-card--primary">
+                            <div class="contact__card-header">
+                                <div class="contact__card-icon contact__card-icon--email">📧</div>
+                                <h4 class="contact__card-title">Email direct</h4>
+                            </div>
+                            <a href="mailto:cinoalessio@outlook.com" class="contact__card-link">
+                                cinoalessio@outlook.com
+                            </a>
+                            <p class="contact__card-subtitle">Réponse sous 2h en moyenne</p>
+                        </div>
+
+                        <div class="contact__info-card">
+                            <div class="contact__card-header">
+                                <div class="contact__card-icon contact__card-icon--phone">📞</div>
+                                <h4 class="contact__card-title">Téléphone</h4>
+                            </div>
+                            <a href="tel:+324857294" class="contact__card-link">
+                                +32 4 85 03 72 94
+                            </a>
+                            <p class="contact__card-subtitle">Lun-Ven • 9h-18h</p>
+                        </div>
+
+                        <div class="contact__info-card">
+                            <div class="contact__card-header">
+                                <div class="contact__card-icon contact__card-icon--location">📍</div>
+                                <h4 class="contact__card-title">Localisation</h4>
+                            </div>
+                            <p class="contact__card-text">Bruxelles, Belgique</p>
+                            <p class="contact__card-subtitle">Projets internationaux acceptés</p>
+                        </div>
+                    </div>
+
+                    <!-- Réseaux sociaux améliorés -->
+                    <div class="contact__social-section">
+                        <h4 class="contact__social-title">Suivez mon travail</h4>
+                        <div class="contact__social-grid">
+                            <a href="https://www.linkedin.com/in/alessio-cino-a7abaa321" class="contact__social-card" target="_blank" rel="noopener noreferrer">
+                                <div class="contact__social-icon">
+                                    <img src="linkedin noir.png" alt="LinkedIn" / loading="lazy">
+                                </div>
+                                <div class="contact__social-content">
+                                    <h5>LinkedIn</h5>
+                                    <p>Réseau professionnel</p>
+                                </div>
+                                <div class="contact__social-arrow">→</div>
+                            </a>
+                            
+                            <a href="https://github.com/alessio29-git" class="contact__social-card" target="_blank" rel="noopener noreferrer">
+                                <div class="contact__social-icon">
+                                    <img src="github (1).png" alt="GitHub" / loading="lazy">
+                                </div>
+                                <div class="contact__social-content">
+                                    <h5>GitHub</h5>
+                                    <p>Code & projets</p>
+                                </div>
+                                <div class="contact__social-arrow">→</div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Garanties -->
+                    <div class="contact__guarantees">
+                        <h4 class="contact__guarantees-title">Mes engagements</h4>
+                        <div class="contact__guarantee-list">
+                            <div class="contact__guarantee-item">
+                                <span class="contact__guarantee-icon">⚡</span>
+                                <span>Réponse sous 24h garantie</span>
+                            </div>
+                            <div class="contact__guarantee-item">
+                                <span class="contact__guarantee-icon">🎯</span>
+                                <span>Consultation gratuite</span>
+                            </div>
+                            <div class="contact__guarantee-item">
+                                <span class="contact__guarantee-icon">🔒</span>
+                                <span>Confidentialité assurée</span>
+                            </div>
+                            <div class="contact__guarantee-item">
+                                <span class="contact__guarantee-icon">✨</span>
+                                <span>Satisfaction garantie</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NOUVEAU FOOTER RÉVOLUTIONNAIRE -->
+    <footer class="footer">
+        <!-- Vague décorative -->
+        <div class="footer__wave">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="footer__wave-shape"></path>
+                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="footer__wave-shape"></path>
+                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="footer__wave-shape"></path>
+            </svg>
+        </div>
+
+        <div class="container">
+            <!-- Section principale du footer -->
+            <div class="footer__main">
+                <!-- Colonne principale avec logo et description -->
+                <div class="footer__brand">
+                    <div class="footer__logo">
+                        <img src="logo site vitrine1.svg" alt="AC-Portfolio Logo" class="footer__logo-image" loading="lazy" />
+                        <div class="footer__logo-text">
+                            <h3>AC-Portfolio</h3>
+                            <p>Alessio Cino</p>
+                        </div>
+                    </div>
+                    <p class="footer__description">
+                        Designer UI/UX passionné, je transforme vos idées en expériences digitales exceptionnelles. 
+                        Chaque projet est une nouvelle aventure créative où l'innovation rencontre la fonctionnalité.
+                    </p>
+                    
+                    <!-- Stats impressionnantes -->
+                    <div class="footer__stats">
+                        <div class="footer__stat">
+                            <span class="footer__stat-number">50+</span>
+                            <span class="footer__stat-label">Projets réalisés</span>
+                        </div>
+                        <div class="footer__stat">
+                            <span class="footer__stat-number">4.9/5</span>
+                            <span class="footer__stat-label">Satisfaction client</span>
+                        </div>
+                        <div class="footer__stat">
+                            <span class="footer__stat-number">3+</span>
+                            <span class="footer__stat-label">Années d'expérience</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navigation rapide -->
+                <div class="footer__section">
+                    <h4 class="footer__section-title">
+                        <span class="footer__section-icon">🧭</span>
+                        Navigation
+                    </h4>
+                    <ul class="footer__links">
+                        <li><a href="#accueil" class="footer__link">Accueil</a></li>
+                        <li><a href="#services" class="footer__link">Services</a></li>
+                        <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+                        <li><a href="#testimonials" class="footer__link">Témoignages</a></li>
+                        <li><a href="#apropos" class="footer__link">À propos</a></li>
+                        <li><a href="#contact" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div class="footer__section">
+                    <h4 class="footer__section-title">
+                        <span class="footer__section-icon">⚡</span>
+                        Services
+                    </h4>
+                    <ul class="footer__links">
+                        <li><a href="#services" class="footer__link">Design UI/UX</a></li>
+                        <li><a href="#services" class="footer__link">Développement Web</a></li>
+                        <li><a href="#services" class="footer__link">Applications Mobile</a></li>
+                        <li><a href="#services" class="footer__link">Wireframing</a></li>
+                        <li><a href="#services" class="footer__link">Prototypage</a></li>
+                        <li><a href="#services" class="footer__link">Consulting UX</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact et réseaux sociaux -->
+                <div class="footer__section">
+                    <h4 class="footer__section-title">
+                        <span class="footer__section-icon">💬</span>
+                        Restons connectés
+                    </h4>
+                    
+                    <!-- Contact rapide -->
+                    <div class="footer__contact">
+                        <a href="mailto:cinoalessio@outlook.com" class="footer__contact-item">
+                            <span class="footer__contact-icon">📧</span>
+                            <div class="footer__contact-content">
+                                <span class="footer__contact-label">Email</span>
+                                <span class="footer__contact-value">cinoalessio@outlook.com</span>
+                            </div>
+                        </a>
+                        
+                        <a href="tel:+33123456789" class="footer__contact-item">
+                            <span class="footer__contact-icon">📞</span>
+                            <div class="footer__contact-content">
+                                <span class="footer__contact-label">Téléphone</span>
+                                <span class="footer__contact-value">+32 1 23 45 67 89</span>
+                            </div>
+                        </a>
+                        
+                        <div class="footer__contact-item">
+                            <span class="footer__contact-icon">📍</span>
+                            <div class="footer__contact-content">
+                                <span class="footer__contact-label">Localisation</span>
+                                <span class="footer__contact-value">Bruxelles, Belgique</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Réseaux sociaux stylés -->
+                    <div class="footer__social">
+                        <h5 class="footer__social-title">Suivez-moi</h5>
+                        <div class="footer__social-links">
+                            <a href="https://www.linkedin.com/in/alessio-cino-a7abaa321" class="footer__social-link footer__social-link--linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                                <img src="linkedin (1).png" alt="LinkedIn" / loading="lazy">
+                                <span class="footer__social-tooltip">LinkedIn</span>
+                            </a>
+                            <a href="https://github.com/alessio29-git" class="footer__social-link footer__social-link--github" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                                <img src="github (1).png" alt="GitHub" / loading="lazy">
+                                <span class="footer__social-tooltip">GitHub</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Newsletter intégrée -->
+            <div class="footer__newsletter">
+                <div class="footer__newsletter-content">
+                    <div class="footer__newsletter-info">
+                        <h4 class="footer__newsletter-title">
+                            <span class="footer__newsletter-icon">📬</span>
+                            Restez dans la boucle
+                        </h4>
+                        <p class="footer__newsletter-text">
+                            Recevez mes derniers projets, conseils design et actualités UI/UX directement dans votre boîte mail.
+                        </p>
+                    </div>
+                    <form class="footer__newsletter-form">
+                        <div class="footer__newsletter-input-group">
+                            <input type="email" class="footer__newsletter-input" placeholder="Votre adresse email" required />
+                            <button type="submit" class="footer__newsletter-btn">
+                                                    <span>S'abonner</span>
+                                <span class="footer__newsletter-btn-icon">→</span>
+                            </button>
+                        </div>
+                        <p class="footer__newsletter-privacy">
+                            <span class="footer__privacy-icon">🔒</span>
+                            Vos données sont protégées. Pas de spam, promis !
+                        </p>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Séparateur élégant -->
+            <div class="footer__divider">
+                <div class="footer__divider-line"></div>
+                <div class="footer__divider-icon">✨</div>
+                <div class="footer__divider-line"></div>
+            </div>
+
+            <!-- Footer bottom avec style -->
+            <div class="footer__bottom">
+                <div class="footer__copyright">
+                    <p>
+                        © 2025 <strong>AC-Portfolio</strong> - Alessio Cino. 
+                        Tous droits réservés. Fait avec <span class="footer__heart">❤️</span> à Bruxelles.
+                    </p>
+                </div>
+                
+                <div class="footer__legal">
+                    <a href="#" class="footer__legal-link">Mentions légales</a>
+                    <span class="footer__legal-separator">•</span>
+                    <a href="#" class="footer__legal-link">Politique de confidentialité</a>
+                    <span class="footer__legal-separator">•</span>
+                    <a href="#" class="footer__legal-link">CGV</a>
+                </div>
+
+                <!-- Badge de qualité -->
+                <div class="footer__badge">
+                    <span class="footer__badge-icon">🏆</span>
+                    <span class="footer__badge-text">Designer certifié</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Particules décoratives -->
+        <div class="footer__particles">
+            <div class="footer__particle footer__particle--1"></div>
+            <div class="footer__particle footer__particle--2"></div>
+            <div class="footer__particle footer__particle--3"></div>
+            <div class="footer__particle footer__particle--4"></div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button amélioré -->
+    <button id="backToTopBtn" class="back-to-top-btn" aria-label="Retour en haut de page">
+        <span class="back-to-top-icon">↑</span>
+        <span class="back-to-top-text">Haut</span>
+    </button>
+
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+        // Initialisation avec ta clé publique
+        emailjs.init("A8HvasbkNP7j9oXwI");
+
+        // Envoi du formulaire
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            emailjs.sendForm('service_3zn3y7h', 'template_8fha5oc', this)
+                .then(function() {
+                    // Affiche le message de succès
+                    document.getElementById('successMessage').style.display = 'block';
+                    // Masque le formulaire
+                    document.getElementById('contactForm').style.display = 'none';
+                }, function(error) {
+                    alert('Erreur lors de l\'envoi : ' + JSON.stringify(error));
+                });
+        });
+
+        // JavaScript pour le menu burger
+        const mobileToggle = document.getElementById('mobileToggle');
+        const nav = document.getElementById('headerNav');
+
+        mobileToggle.addEventListener('click', () => {
+            const isExpanded = mobileToggle.getAttribute('aria-expanded') === 'true';
+            mobileToggle.setAttribute('aria-expanded', !isExpanded);
+            nav.classList.toggle('open');
+        });
+    </script>
+    <script src="script.js"></script>
+
+<noscript>Le JavaScript est désactivé. Le site reste consultable mais certaines fonctionnalités interactives seront limitées.</noscript>
+</body>
+</html>
